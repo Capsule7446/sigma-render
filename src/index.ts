@@ -9,7 +9,7 @@ const container = document.getElementById("sigma-container") as HTMLElement;
 
 // Create a sample graph
 const graph = new Graph();
-graph.addNode("n1", { x: 0, y: 0, size: 10, color: chroma.random().hex() });
+graph.addNode("n1", { x: 0, y: 0, size: 10});
 graph.addNode("n2", { x: -5, y: 5, size: 10, color: chroma.random().hex() });
 graph.addNode("n3", { x: 5, y: 5, size: 10, color: chroma.random().hex() });
 graph.addNode("n4", { x: 0, y: 10, size: 10, color: chroma.random().hex() });
